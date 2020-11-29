@@ -1,19 +1,25 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Weather Application | OpenWeatherMap API</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <form>
-  	<input type="text" name="city" value="" placeholder="city" id="city">
-  	<input type="submit" value="Get Weather" id="getTemp">
-  </form>
-
-  <!-- Add your code in here -->
-
-  <script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
-
-</body>
-</html>
+<section class="top-banner">
+  <div class="container">
+    <h1 class="heading">Simple Weather App</h1>
+    <link rel="stylesheet" href="style.css">
+    <form>
+      <input type="text" placeholder="Search for a city" autofocus>
+      <button type="submit">SUBMIT</button>
+      <span class="msg"></span>
+    </form>
+  </div>
+</section>
+<section class="ajax-section">
+  <div class="container">
+    <ul class="cities"></ul>
+  </div>
+</section>
+<script src="function.js" type="text/javascript" charset="utf-8" async defer></script>
+<footer class="page-footer">
+  <div class="container">
+    <small>Made with <span>❤</span> by <a href="https://github.com/berryq460" target="_blank">QB</a>
+    </small>
+  </div>
+</footer>
